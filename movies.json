@@ -11,7 +11,7 @@
             "website": "https://www.facebook.com/ShawshankRedemptionFilm",
             "likes": 1021,
             "dislikes": 122,
-            "posterindex": 0
+            "posterindex": 1
       },
       {
             "title": "The Godfather",
@@ -25,7 +25,7 @@
             "website": "https://www.facebook.com/thegodfather",
             "likes": 928,
             "dislikes": 109,
-            "posterindex": 0
+            "posterindex": 2
       },
       {
             "title": "The Godfather: Part II",
@@ -39,7 +39,7 @@
             "website": "https://www.facebook.com/thegodfather",
             "likes": 855,
             "dislikes": 99,
-            "posterindex": 0
+            "posterindex": 3
       },
       {
             "title": "The Dark Knight",
@@ -53,7 +53,7 @@
             "website": "http://www.42entertainment.com/work/whysoserious",
             "likes": 828,
             "dislikes": 127,
-            "posterindex": 0
+            "posterindex": 4
       },
       {
             "title": "Schindler's List",
@@ -67,6 +67,6 @@
             "website": "https://www.uphe.com/schindlers-list",
             "likes": 812,
             "dislikes": 101,
-            "posterindex": 0
+            "posterindex": 5
       }
 ]
