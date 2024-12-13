@@ -37,12 +37,12 @@
 	        <div class="col-md-6" v-for="(movie, index) in movies" :key="movie.id">
 	            <div class="thumbnail">
 
-						<img class="poster img-fluid" :src="movies[index].posters[0]" />
-						<div class="imageInfo">{{ movies [index].posterindex }}</div>
+						<img class="poster img-fluid" @click="posterClick(index)" :src="movies[index].posters[movies[index].posterindex]" />
+						<div class="imageInfo">{{ movies[index].posterindex + 1 }} of {{ movies[index].posters.length }}</div>
 
 						<p class="title">{{movies[index].title }} {{movies[index].country }} </p>
 						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{movies[index].iscore }} </p>
-						<p class="runtime">Runtime: {{movies[index].runtime }}</p>
+						<p class="runtime">Runtime: {{ timeText(movies[index].runtime) }}</p>
 						<p class="released">Released: {{getMonthText(movies[index].released) }} | Rated: {{movies[index].rating }} </p>
 						<p class="websites">Websites: <a> {{movies[index].imdb}} </a> | <a>{{movies[index].website}}</a></p>
 
