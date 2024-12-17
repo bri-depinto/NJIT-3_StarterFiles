@@ -44,7 +44,7 @@
 						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{movies[index].iscore }} </p>
 						<p class="runtime">Runtime: {{ timeText(movies[index].runtime) }}</p>
 						<p class="released">Released: {{getMonthText(movies[index].released) }} | Rated: {{movies[index].rating }} </p>
-						<p class="websites">Websites: <a> {{movies[index].imdb}} </a> | <a>{{movies[index].website}}</a></p>
+						<p class="websites">Websites: <a :href="movies[index].imdb">IMBD</a> | <a :href="movies[index].website">Official</a></p>
 
 			            <div class="social">
 			              <p class="likes" @click="movie.likes++"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{movies[index].likes }}</p>
