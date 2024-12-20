@@ -5,7 +5,7 @@ body {
     padding: 0;
     width: 100%;
     overflow: auto;
-    background-image: url(img/geometry.jpg);
+    background-image: url(img/pink.jpg);
 }
 
 /* This stylizes the header area */
@@ -14,7 +14,8 @@ body {
 }
 .header h1 {
     display: inline-block;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-family: "DynaPuff", serif;
 }
 
 /* This stylizes the main page area */
@@ -30,13 +31,13 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 0;
-    background-color:#dddddd;
+    background-color:#f3dfe7;
 }
 .thumbnail img {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 5px;
-    border: 2px dashed black;
+    border: 2px dashed rgb(224, 25, 135);
 }
 
 /* This stylizes your "Poster X of Y" text */
@@ -51,21 +52,24 @@ body {
 /* This stylizes your Title and Rating Text */
 .title,
 .released {
-    color: #444;
+    color: #000000;
     margin: 0;
     font-size: 18px;
     font-weight: 800;
+    letter-spacing: 0.7px;
+    font-family: "Englebert", serif;
 }
 .released,
 .rated {
     color: #5d5d5d;
     font-size: 14px;
     font-weight: 200;
+
 }
 
 /* This shapes your IMDB score area */
 .score {
-    background-color: #39D1B4;
+    background-color: #ff8fcd;
     color: #fff;
     font-size: 18px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -77,6 +81,7 @@ body {
     position: absolute;
     top: 50px;
     right: 25px;
+    font-family: "DynaPuff", serif;
 }
 
 /* This contains your like and dislike buttons */
@@ -127,8 +132,14 @@ body {
 .footer {
     text-align: center;
     margin: 80px 0 110px;
+    font-family: "Englebert", serif;
 }
-
+.btn{
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgb(255, 135, 219);
+}
 /* This makes sure your Github Button text is small */
 #github{
 	font-size: small;
